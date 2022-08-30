@@ -16,7 +16,7 @@ main {
     width: 1000px;
     background-color: white;
     border: 2px solid rgb(10, 8, 8);
-
+    margin: 20px;
 }
 
 img {
@@ -32,7 +32,13 @@ img {
 
 .img-caption {
     border: 2px solid rgb(73, 13, 212);
-
+    text-align: center;
+    justify-content: center;
 }
 
-.img-box {}
+.img-box {
+    display: flex;
+    flex-direction: row;
+
+
+}
