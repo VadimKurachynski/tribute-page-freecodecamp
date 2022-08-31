@@ -32,11 +32,6 @@ body {
     }
   }
 
-
-
-
-
-
 #img-div {
     display: flex;
     flex-direction: column;
@@ -48,15 +43,9 @@ img {
 
     max-width: 100%;
     height: auto;
-
-
 }
 
-
-
 .img-caption {
-    /* max-width: 500px;
-    max-height: auto; */
     font-size: 24px;
     text-align: center;
 }
@@ -74,15 +63,11 @@ img {
     text-align: center;
 }
 
-
-
 #headline {
     margin: 50px 0;
     text-align: center;
     font-size: 25px;
   }
-
-
 
   ul {
       font-size: 20px;
