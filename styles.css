@@ -10,11 +10,32 @@ body {
     border-radius: 20px;
 }
 
+.title1{
+    font-size: 60px;
+}
+.title2{
+    font-size: 25px;
+    font-weight: 200;
+}
+
 @media (max-width: 600px) {
     #main {
       margin: 0px 0px 0px 0px;
     }
   }
+  @media (max-width: 600px) {
+    .title1{
+        font-size: 40px;
+    }
+    .title2{
+        font-size: 25px;
+    }
+  }
+
+
+
+
+
 
 #img-div {
     display: flex;
@@ -31,7 +52,7 @@ img {
 
 }
 
-.image {}
+
 
 .img-caption {
     /* max-width: 500px;
@@ -53,13 +74,7 @@ img {
     text-align: center;
 }
 
-.title1{
-    font-size: 60px;
-}
-.title2{
-    font-size: 25px;
-    font-weight: 200;
-}
+
 
 #headline {
     margin: 50px 0;
@@ -85,3 +100,8 @@ img {
       text-align: center;
       font-size: 20px;
   }
+
+  a:visited {
+    color: #ac1e4d;
+  }
+  
